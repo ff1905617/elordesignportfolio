@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Kapakana;
+    src: url("fonts/Kapakana.ttf");
+}
+body{
+    background-color: #f7f1d9;
+}
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+h1{
+    font-family: Kapakana;
+    font-size: 6rem;
+    font-weight: 400;
+    text-align: center;
+    color: #611329;
+}
+h2{
+    text-align: center; 
+    letter-spacing: 8px;
+    font-family: 'Helvetica';
+    color: #611329;
+}
+p{
+    text-align: center; 
+    letter-spacing: 8px;
+    font-family: 'Helvetica';
+    color: #611329;
+}
+a{
+    text-decoration: none;
+    text-align: center; 
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Helvetica';
+    color: #611329;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.names{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+.pagination{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.active{
+    display: inline-block;
+    background-color: #611329;
+    color: #f7f1d9;
+    border-radius: 50%;
+}

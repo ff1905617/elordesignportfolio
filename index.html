@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Elena Orwick | Design Portfolio</title>
+    
+</head>
+<body>
+    
+    <!--Title block-->
+    <div class="header">
+        <h1>Elena Orwick</h1>
+        <h2>&#x2022;DESIGN PORTFOLIO&#x2022;</h2>
+    </div>
+
+    <!--Gallery Links-->
+    <div class="gallery" onmouseout="normalText()">
+        <a href="01.html"><img src="images/01.jpeg" onmouseover="document.getElementById('default').innerHTML = '20TH BIRTHDAY POTLUCK';"></a>
+        <a href="02.html"><img src="images/02.jpeg" onmouseover="document.getElementById('default').innerHTML = 'FIGS';"></a>
+        <a href="03.html"><img src="images/03.jpeg" onmouseover="document.getElementById('default').innerHTML = 'EVANS WAY HAIRCUTS';"></a>
+        <a href="04.html"><img src="images/04.jpeg" onmouseover="document.getElementById('default').innerHTML = 'NOT A LOT JUST FOREVER I';"></a>
+        <a href="05.html"><img src="images/05.jpeg" onmouseover="document.getElementById('default').innerHTML = 'NOT A LOT JUST FOREVER II';"></a>
+        <a href="06.html"><img src="images/06.jpeg" onmouseover="document.getElementById('default').innerHTML = 'NOT A LOT JUST FOREVER III';"></a>
+        <a href="07.html"><img src="images/07.jpeg" onmouseover="document.getElementById('default').innerHTML = 'SAVE A HORSE, RIDE A COWBOY';"></a>
+        <a href="08.html"><img src="images/08.jpeg" onmouseover="document.getElementById('default').innerHTML = 'RILEY & KYLE';"></a>
+        <a href="09.html"><img src="images/09.jpeg" onmouseover="document.getElementById('default').innerHTML = 'THE GREAT UNIFIER';"></a>
+    </div>
+    
+    <!--Artwork names targeted by JS-->
+    <div class="names">
+        <h2 id="default">DESIGNS BY ELENA ORWICK</h2>
+    </div>
+
+    <!--JS for changing text-->
+    <script>
+        function normalText(){
+            document.getElementById('default').innerHTML = 'DESIGNS BY ELENA ORWICK'
+        }
+    </script>
+
+      
+</body>
+</html>

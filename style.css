@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Kapakana;
+    src: url("fonts/Kapakana.ttf");
+}
+body{
+    background-color: #f7f1d9;
+}
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+h1{
+    font-family: Kapakana;
+    font-size: 6rem;
+    font-weight: 400;
+    text-align: center;
+    color: #611329;
+    text-decoration: none;
+}
+h2{
+    text-align: center; 
+    letter-spacing: 8px;
+    font-family: 'Helvetica';
+    color: #611329;
+    text-decoration: none;
+}
+h3{
+    text-align: center; 
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-family: 'Helvetica';
+    color: #611329;
+
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100px;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: grayscale(100%);
+}
+img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: 1s;
+    width: 110px;
+    height: 410px;
+    box-shadow: 10px 10px 5px #636057;
+}
+.names{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+.interview-block{
+    padding:108px;
+    text-align: center;
+}
+li{
+    align-items: center;
+    display: inline;
+    text-align: center;
+    column-gap: 24px;
+    text-decoration: none;
+}
